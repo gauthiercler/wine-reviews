@@ -16,6 +16,7 @@ def main():
 
     st.title('Wine recommender')
     data = load_data().copy(deep=True)
+    data.drop_duplicates(inplace=True)
     data.dropna(subset=['country', 'variety'], axis=0, inplace=True)
 
     max_price = 300.0
