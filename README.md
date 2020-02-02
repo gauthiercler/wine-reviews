@@ -1,5 +1,9 @@
 # wine-reviews
 
+This is the repository for project from data science and vizualisation class at Epitech.
+
+Report is available at **report.pdf** and notebooks in **notebooks** directory.
+
 ## Structure
 ```
 ├── datasets
