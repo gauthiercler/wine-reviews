@@ -4,6 +4,8 @@ This is the repository for project from data science and vizualisation class at 
 
 Report is available at **report.pdf** and notebooks in **notebooks** directory.
 
+Made by Gauthier Cler <gauthier.cler@gmail.com> and Anas Buyumad <anas.buyumad@gmail.com>
+
 ## Structure
 ```
 ├── datasets
