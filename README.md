@@ -9,6 +9,7 @@ http://wine-recommender.gauthiercler.com/
 │   ├── wine-reviews -> dataset from kaggle 
 │   └── worldmapshapes -> map shapes vectorized used to plot using geopandas
 ├── figs -> generated figures
+├── report.pdf -> project report
 ├── notebooks
 │   ├── eda.ipynb -> vizualisation notebook
 │   └── model.ipynb -> machine learning notebook related to data
