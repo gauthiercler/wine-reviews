@@ -13,7 +13,6 @@ def load_data():
 
 
 def main():
-
     st.title('Wine recommender')
     data = load_data().copy(deep=True)
     data.drop_duplicates(inplace=True)
@@ -44,6 +43,13 @@ def main():
 
             results = data[['country', 'description', 'points', 'price', 'title', 'variety', 'similarity']].head(
                 10).reset_index(drop=True)
+
+            st.markdown(
+                '*If table display feels too narrow or is too hard to read, feel free to change this app to wide '
+                'mode display (click on the 3 lines in the top right corner, settings, check **Show app in wide '
+                'mode**, save)*')
+
+            st.subheader("Here are the most relevant wines to your query:")
             st.table(results)
 
 
