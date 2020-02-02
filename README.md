@@ -1,7 +1,8 @@
 # wine-reviews
 
-http://wine-recommender.gauthiercler.com/
+This is the repository for project from data science and vizualisation class at Epitech.
 
+Report is available at **report.pdf** and notebooks in **notebooks** directory.
 
 ## Structure
 ```
@@ -15,6 +16,18 @@ http://wine-recommender.gauthiercler.com/
 │   └── model.ipynb -> machine learning notebook related to data
 └── requirements.txt -> requirements needed to run notebooks
 ```
+## How to run
+
+```
+pip install -r requirements.txt
+```
+
+Then you can open and execute notebooks using jupyter notebook.
 
 
-You can remotely run notebooks directly over there [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gauthiercler/wine-reviews/master)
+You can also remotely run notebooks directly over there [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gauthiercler/wine-reviews/master)
+
+## Wine recommender
+
+We made, from our dataset analysis, a wine recommender available here http://wine-recommender.gauthiercler.com/
+
