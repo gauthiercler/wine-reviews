@@ -1,8 +1,11 @@
 # wine-reviews
 
+Made by Gauthier Cler <gauthier.cler@gmail.com> and Anas Buyumad <anas.buyumad@gmail.com>
+
 This is the repository for project from data science and vizualisation class at Epitech.
 
 Report is available at **report.pdf** and notebooks in **notebooks** directory.
+
 
 ## Structure
 ```
@@ -10,6 +13,7 @@ Report is available at **report.pdf** and notebooks in **notebooks** directory.
 │   ├── wine-reviews -> dataset from kaggle 
 │   └── worldmapshapes -> map shapes vectorized used to plot using geopandas
 ├── figs -> generated figures
+├── project_description.pdf -> project description
 ├── report.pdf -> project report
 ├── notebooks
 │   ├── eda.ipynb -> vizualisation notebook
